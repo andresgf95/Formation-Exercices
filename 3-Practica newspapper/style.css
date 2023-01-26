@@ -27,6 +27,14 @@ h1 {
     border-width: 10px;
 }
 
+.Navegacion {
+    display: flex;
+    border: #096900;
+}
+.OuNav {
+    border: solid green;
+}
+
 nav {
     margin: 2rem;
     padding: 0.5rem;
