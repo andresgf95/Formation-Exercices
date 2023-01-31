@@ -1,5 +1,5 @@
 body {
-    background:linear-gradient(rgba(90, 170, 245, 0.753), rgba(114, 179, 240, 0.5), white) ;
+    background: black ;
     text-align: center;
     font-style: normal;
     padding: 0.5rem;
@@ -49,10 +49,10 @@ nav {
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgba(0, 0, 0, 0.205);
-    color: rgb(78, 78, 78);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: radial-gradient(green, yellow, red);
+    background-color: yellow;
 }
 
 .CoNav {
@@ -61,10 +61,10 @@ nav {
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgba(0, 0, 0, 0.205);
-    color: rgb(78, 78, 78);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: radial-gradient(green, yellow, red);
+    background-color: yellow;
 }
 
 .LuNav {
@@ -73,10 +73,10 @@ nav {
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgba(0, 0, 0, 0.205);
-    color: rgb(78, 78, 78);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: radial-gradient(green, yellow, red);
+    background-color: yellow;
 }
 
 .PoNav {
@@ -85,10 +85,22 @@ nav {
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgba(0, 0, 0, 0.205);
-    color: rgb(78, 78, 78);
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: radial-gradient(green, yellow, red);
+    background-color: yellow;
+}
+
+.Login {
+    border: dashed rgba(0, 128, 0, 0.479);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: rgba(0, 0, 0, 0.205);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: yellow;
 }
 
 main{
@@ -98,6 +110,7 @@ main{
 
 article {
     border: ridge 10px rgba(2, 107, 7, 0.507);
+    background-image:radial-gradient(rgb(106, 194, 245), white) ;
     padding: 1rem;
     margin: 2rem;
 }
@@ -112,4 +125,8 @@ h2 {
     border-radius: 5rem;
     color: #096900;
     text-decoration: underline #096900;
+}
+
+footer {
+    background-image:radial-gradient(rgb(106, 194, 245), white) ;
 }

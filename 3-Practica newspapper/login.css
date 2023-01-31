@@ -1,0 +1,33 @@
+body {
+    background-image: radial-gradient(rgba(128, 0, 128, 0.918),rgba(128, 0, 128, 0.815), rgba(128, 0, 128, 0.466));
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+fieldset {
+    margin: 10rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+h1{
+    color: rgb(229, 255, 0);
+    font-size: 3rem ;
+    font-weight: bold;
+    font-style: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 6px 8px black
+}
+
+input {
+    margin: 0.5rem;
+    background-color:rgb(255, 202, 237);
+}
