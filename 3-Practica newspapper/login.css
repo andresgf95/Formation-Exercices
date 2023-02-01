@@ -8,17 +8,25 @@ body {
     justify-content: center;
 }
 
-fieldset {
-    margin: 10rem;
-    padding: 2rem;
+div{
+    align-items: center;
+    margin: 1rem;
+}
+
+form{
     display: flex;
+    margin: 4rem;
+    padding: 2rem;
     flex-direction: column;
     flex-flow: column;
     flex-wrap: wrap;
+    border-radius: 100px;
+    background-image:radial-gradient(rgba(106, 194, 245, 0.171), rgba(255, 255, 255, 0.082)) ;
 }
 
+
 h1{
-    color: rgb(229, 255, 0);
+    color: rgb(156, 255, 153);
     font-size: 3rem ;
     font-weight: bold;
     font-style: normal;
@@ -29,4 +37,14 @@ h1{
 input {
     margin: 0.5rem;
     background-color:rgb(255, 202, 237);
+}
+
+a {
+    color: rgb(156, 255, 153);
+    font-size: 1.5rem ;
+    font-weight: bold;
+    font-style: normal;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 6px 8px black;
+    text-decoration: none;
 }

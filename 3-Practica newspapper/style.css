@@ -1,10 +1,9 @@
 body {
-    background: black ;
+    background-image: radial-gradient(rgb(255, 255, 255), rgb(98, 170, 238), rgb(117, 245, 245), rgb(34, 109, 114), rgb(0, 0, 0)) ;
     text-align: center;
     font-style: normal;
     padding: 0.5rem;
     margin: 0.5rem;
-    border: solid 1px rgba(3, 121, 9, 0.521);
     display: flex;
     flex-direction: column;
 }
@@ -27,11 +26,12 @@ header > a:nth-last-child(1) {
 }
 
 h1 {
-    color:rgb(0, 0, 0);
+    color: rgb(38, 99, 80);
     font-size: 5rem ;
-    font-family: "fantasy", sans-serif ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     margin: 0.5rem;
     padding: 0.5rem;
+    text-shadow: 4px 6px 8px rgb(0, 0, 0);
 }
 
 nav {
@@ -41,66 +41,87 @@ nav {
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-content: center;
+    border-radius: 1rem;
+    border: solid #2424244b;
+    background-image:radial-gradient(rgb(106, 194, 245), white) ;
+    align-items: center;
 }
 
 .OuNav {
-    border: dashed rgba(0, 128, 0, 0.479);
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgba(0, 0, 0, 0.205);
-    color: rgb(0, 0, 0);
+    color: rgb(38, 99, 80);
     font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: yellow;
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: 6px 10px 15px rgb(9, 46, 32)
 }
 
 .CoNav {
-    border: dashed rgba(0, 128, 0, 0.479);
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgba(0, 0, 0, 0.205);
-    color: rgb(0, 0, 0);
+    color: rgb(38, 99, 80);
     font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: yellow;
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: 6px 10px 15px rgb(9, 46, 32)
 }
 
 .LuNav {
-    border: dashed rgba(0, 128, 0, 0.479);
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgba(0, 0, 0, 0.205);
-    color: rgb(0, 0, 0);
+    color: rgb(38, 99, 80);
     font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: yellow;
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: 6px 10px 15px rgb(9, 46, 32)
 }
 
 .PoNav {
-    border: dashed rgba(0, 128, 0, 0.479);
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgba(0, 0, 0, 0.205);
-    color: rgb(0, 0, 0);
+    color: rgb(38, 99, 80);
     font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: yellow;
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: 6px 10px 15px rgb(9, 46, 32)
 }
 
 .Login {
-    border: dashed rgba(0, 128, 0, 0.479);
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
     border-color: rgba(0, 0, 0, 0.205);
-    color: rgb(0, 0, 0);
-    font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: yellow;
+    color: rgb(38, 99, 80);
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: 6px 10px 15px rgb(9, 46, 32);
+}
+
+.Reg {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: rgba(0, 0, 0, 0.205);
+    color: rgb(38, 99, 80);
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif ;
+    text-shadow: 6px 10px 15px rgb(9, 46, 32);
+}
+
+nav > div {
+    border: ridge rgba(191, 228, 235, 0.582) ;
+    border-radius: 2rem;
+}
+
+div > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
@@ -109,24 +130,38 @@ main{
 }
 
 article {
-    border: ridge 10px rgba(2, 107, 7, 0.507);
+    border-radius: 0.5rem;
     background-image:radial-gradient(rgb(106, 194, 245), white) ;
     padding: 1rem;
-    margin: 2rem;
-}
-
-div{
-    color: black;
+    margin: 0.5rem;
+    color: rgb(38, 99, 80);
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
-    display: block;
-    border: dashed 1px;
-    border-radius: 5rem;
-    color: #096900;
-    text-decoration: underline #096900;
+    color: rgb(38, 99, 80);
+    font-size: 1.5rem ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-shadow: 4px 6px 8px rgb(0, 0, 0);
 }
 
 footer {
     background-image:radial-gradient(rgb(106, 194, 245), white) ;
+    border-radius: 1rem;
+    padding: 0.5rem ;
+    margin: 0.5rem;
+    color: rgb(35, 87, 71);
+    font-size: 1.5rem ;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    border: solid rgba(92, 91, 91, 0.61);
+    border-radius: 2rem;
 }
