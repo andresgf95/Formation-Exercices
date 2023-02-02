@@ -1,6 +1,0 @@
-Artigo:
--Titular
--Autor - data- fonte
--Corpo da noticia
--Versión corta
--Foto + referencia ou pé de foto
