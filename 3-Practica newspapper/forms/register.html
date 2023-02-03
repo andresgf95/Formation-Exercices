@@ -1,75 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="gl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="register.css">
+    <title>Crea o teu usuario</title>
+    <link rel="stylesheet" href="../css/register.css">
 </head>
 <body>
     <header>
-        <a href="./index.html"><img src="./IconNews.png" alt="Logo"></a>
+        <div>
+            <a href="../index.html">PÁXINA DE INICIO</a>
+        </div>
     </header>
    <form>
         <h1>Rexístrate en Follas Galegas</h1>
         <fieldset>
             <label>
-                Nome <input type="text" name="rexistro" placeholder="Nome">
+                Nome <input class="CaixaSombra" type="text" name="rexistro" placeholder="Nome">
             </label>
             <label>
-                Apelidos <input type="text" name="rexistro" placeholder="Apelidos">
+                Apelidos <input class="CaixaSombra" type="text" name="rexistro" placeholder="Apelidos">
             </label>
             <label>
-                DNI/NIF <input type="text" name="rexistro" placeholder="DNI/NIF">
+                DNI/NIF <input class="CaixaSombra" type="text" name="rexistro" placeholder="DNI/NIF">
             </label>
             <label>
-                Código Postal <input type="text" name="rexistro" placeholder="Código Postal">
+                Código Postal <input class="CaixaSombra" type="text" name="rexistro" placeholder="Código Postal">
             </label>
             <label>
-                Data de nacemento <input type="date" name="rexistro">
+                Data de nacemento <input class="CaixaSombra" type="date" name="rexistro">
             </label>
         </fieldset>
         <fieldset>
             <label>
-                Dirección de correo electrónico <input type="mail" name="Contacto" placeholder="E-Mail">
+                Dirección de correo electrónico <input class="CaixaSombra" type="mail" name="Contacto" placeholder="E-Mail">
             </label>
             <label>
-                Repite a dirección de correo electrónico <input type="mail" name="Contacto" placeholder="E-Mail">
+                Repite a dirección de correo electrónico <input class="CaixaSombra" type="mail" name="Contacto" placeholder="E-Mail">
             </label>
             <label>
-                Crea un contrasinal <input type="password" name="Contacto">
+                Número de teléfono <input class="CaixaSombra" type="text" name="Contacto" value="+34">
             </label>
             <label>
-                Repite o contrasinal <input type="password" name="Contacto">
+                Crea un contrasinal <input class="CaixaSombra" type="password" name="Contacto">
             </label>
             <label>
-                Número de teléfono <input type="text" name="Contacto" value="+34">
+                Repite o  contrasinal <input class="CaixaSombra" type="password" name="Contacto">
             </label>
         </fieldset>
-        <fieldset>
-            <textarea name="TermosECondicionsDeServizo" cols="30" rows="10">Termos e Condicións do Servizo:
-                Lorem ipsum dolor sit amet consectetur, 
-                adipisicing elit. Nesciunt doloribus possimus in reiciendis sint esse nulla! 
-                Quia aliquam nulla, facilis natus repellendus odio nam est quis, dignissimos qui doloremque expedita.</textarea>
-                <br>
-            Acepto os Termos E Condicións de Servizo <input type="checkbox" name="TermosECondicionsDeServizo">    
+        <fieldset class="Termos">
+            <textarea name="TermosECondicionsDeServizo" cols="30" rows="10">Termos e Condicións do Servizo: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt doloribus possimus in reiciendis sint esse nulla! Quia aliquam nulla, facilis natus repellendus odio nam est quis, dignissimos qui doloremque expedita.</textarea>
+            <h2>Acepto os Termos e Condicións de Servizo</h2> <input class="CasillaTermos" type="checkbox" name="TermosECondicionsDeServizo">    
         </fieldset>
         <fieldset>
             <h2>USO DAS COOKIES DE TERCEIROS</h2>
             <label>
-                Dou Permiso para usar todas as COOKIES <input type="radio" name="COOKIES" value="COOKIESTOTAL">
+                <input type="radio" name="COOKIES" value="COOKIESTOTAL">Dou Permiso para usar todas as COOKIES
             </label>
             <label>
-                Dou Permiso para usar as COOKIES imprescindibles <input type="radio" name="COOKIES" value="COOKIESPARCIAL">
+                <input type="radio" name="COOKIES" value="COOKIESPARCIAL">Dou Permiso para usar as COOKIES imprescindibles
             </label>
             <label>
-                Non dou o meu permiso para utilizar COOKIES<input type="radio" name="COOKIES" value="COOKIESNO">
+            <input type="radio" name="COOKIES" value="COOKIESNO">Non dou o meu permiso para utilizar COOKIES
             </label>
         </fieldset>
         <label>
-            <input type="submitt" name="ENVIAR" value="COMPLETAR O REXISTRO">
+            <input class="CaixaSombra" type="submit" name="ENVIAR" value="COMPLETAR O REXISTRO">
         </label>
    </form> 
+   <a href="./login.html">Accede á tua Area Persoal !</a>
+   <footer>
+        <p>Aviso Legal:</p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti exercitationem reprehenderit at inventore adipisci ratione magni, cum molestias earum, eos voluptatum quos accusantium rerum dolor, perspiciatis dicta consequuntur officia qui.
+    </footer>
 </body>
 </html>
